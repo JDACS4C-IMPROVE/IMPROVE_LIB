@@ -23,7 +23,21 @@ setup(
     ],
     python_requires='>=3.6',  # Minimum version requirement of the package
     install_requires=[  # Add any dependencies here
-        # 'dependency1',
+        argparse,
+        collections,
+        configparser
+        matplotlib,
+        networkx,
+        os,
+        pandas,
+        pathlib,
+        rdkit,
+        scipy,
+        sklearn,
+        sys,
+        torch,
+        torch_geometric,
+        typing,
         # 'dependency2',
     ],
 )
